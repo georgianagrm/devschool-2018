@@ -1,0 +1,175 @@
+@font-face{
+    font-family: titleFont;
+    src: url(fonts/OpenSansCondensed-LightItalic.ttf);
+}
+@font-face{
+    font-family: paragraphFont;
+    src: url(fonts/Quattrocento-Regular.ttf);
+    font-weight: 500;
+}
+html{
+    max-height: 100vh;
+    height: 1600px;
+}
+header{
+    text-align: center;
+    display: inline;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 10px;
+    z-index: 3;
+}
+header nav a:link{
+    font-family: paragraphFont;
+    color: black;
+    font-size: 17px;
+    padding: 11px;
+	letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header nav a:visited,
+article ol li a:visited,
+aside a:visited{
+    color: #003c67;
+}
+header nav a:hover,
+article ol li a:hover,
+aside a:hover{
+    color: mediumslateblue;
+}
+header nav a:active,
+article ol li a:active,
+aside a:active{
+    color: royalblue;
+}
+header a img,
+header img{
+    display: inline-block;
+    border: 3px solid white;
+    padding: 0;
+    width: 120px;
+    height: 170px;
+    background-attachment: fixed;
+    margin-top: 30px;
+    cursor: pointer;
+}
+h1{
+    font-family: titleFont;
+    color: black;
+    font-weight: 900;
+    position: sticky;
+    text-align: center;
+    margin-bottom: 10px;
+}
+body{
+    background-image: url('img/noisy_grid.png');
+    background-repeat: repeat;
+}
+main ol li img {
+    width: 400px;
+    height: 400px;
+}
+h2,
+h3{
+    text-align: center;
+    font-family: titleFont;
+
+}
+p,
+article ol li{
+    font-family: paragraphFont;
+    letter-spacing: 1px;
+    word-break: keep-all;
+    color: black;
+}
+p{
+    text-indent: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+article ol li{
+    margin-bottom: 7px;
+}
+article ol li a,
+aside a{
+    font-family: paragraphFont;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+video,
+audio{
+    display: block;
+    position: static;
+}
+.imag,
+video{
+    float: right;
+    margin: 25px 15px 15px 10px;
+    width: 250px;
+    height: 200px;
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+aside { 
+    order: 1;
+    flex: 0 0 350px;
+    margin-left: 150px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 30px;
+}
+main{
+    overflow: auto;
+    flex: 1;
+    margin-right: 150px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+main details{
+    margin-left: 20px;
+    font-family: paragraphFont;
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: paragraphFont;
+    color: black;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+section {
+    margin: 20px 10px;
+    text-indent: 25px;
+    word-break: break-all;
+}
+
+#newArticleButton,
+article button {
+    display: block;
+    cursor: pointer;
+    margin: 15px auto;
+    background: #E8EEF2;
+    border: 2px solid #BBADEA;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5126E0;
+}
+
+#newArticleButton:hover,
+article button:hover {
+    background: #D3DFE8;
+}
+
