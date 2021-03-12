@@ -1,0 +1,40 @@
+@font-face {
+    font-family: font;
+    src: url(RobotoCondensed-Regular.ttf) format("opentype");
+}
+
+body {
+    margin-top: 190px;
+    display: block;
+    text-align: center;
+    background-image: url('noisy_grid.png');
+}
+
+h1 {
+    font-family: font;
+}
+
+input[type=text] {
+    height: -10px;
+    width: 210px;;
+    padding: 10px 20px;;
+    display: inline-block;
+    border: 2px solid #D3D3D3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: font;
+}
+
+button {
+    margin-bottom: 20px;
+    font-family: font;
+    font-weight: 600;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #c7f4b1;
+    font-family: font;
+    font-weight: 400;
+}
