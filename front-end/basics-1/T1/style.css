@@ -1,0 +1,50 @@
+header{
+    text-align: center;
+    color:#000;
+ 
+}
+body{
+    background-color: #E8E8E8;  
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,
+h2,
+h3,
+h4,
+.inl{
+    text-align: center;
+}
+.button{
+    display: inline;
+    margin-left: 10px;
+}
+.button:hover {
+    color: red;
+    background: #eff;
+}
+main,
+footer,
+aside{
+    max-width: 900px;
+    margin: 13px auto;
+}
+
+
+aside ol li{
+    margin-left: 30px;
+}
+.imag, 
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+}
+header a{
+    display: inline-block;
+}
+audio{
+    margin-left: 270px;
+}
+
